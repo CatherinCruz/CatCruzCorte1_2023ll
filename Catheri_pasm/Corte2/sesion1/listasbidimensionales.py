@@ -15,4 +15,4 @@ def main(filas,columnas):
 if __name__=='__main__':
     filas=int(input('ingrese el numero de filas:'))
     columnas=int(input('ingrese el numero de columnas:'))
-    main(filas, columnas)
+    main(filas, columnas) 
