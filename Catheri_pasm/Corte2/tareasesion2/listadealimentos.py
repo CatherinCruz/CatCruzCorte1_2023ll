@@ -24,7 +24,7 @@ while True:
             for  
             valor_neto = float(input("Ingrese el valor neto del mercado actual: "))
             break
-            elif ValueError:
+        elif ValueError:
     print("El valor ingresado no es válido. Intente nuevamente.")
     valor_base, valor_iva = calcular_valor_bruto(producto, valor_neto)
     print(f"El valor base del producto es: {valor_base:.2f}")
