@@ -6,7 +6,7 @@ def posiciones_de(a, b):
     else:
         return [i + 1 for i in posiciones_de(a[1:], b)]
 
-a = "Hola soy yo haahaha"
-b = "yeye"
+a = ["Hola, soy, yo, haahaha"]
+b = ['yo']
 posiciones = posiciones_de(a, b)
 print(f"Las posiciones en donde se encuentra '{b}' dentro de '{a}' son: {posiciones}")
