@@ -1,3 +1,4 @@
+#lista recursiva con a y b https://www.youtube.com/watch?v=YwRjEOFxvO0
 def posiciones_de(a, b):
     if len(a) < len(b):
         return [1]

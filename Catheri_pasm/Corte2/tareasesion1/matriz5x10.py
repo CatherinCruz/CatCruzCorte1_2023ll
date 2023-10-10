@@ -1,4 +1,4 @@
-#  matriz de 5x10
+#  matriz de 5x10 https://www.youtube.com/watch?v=FdP0Yz1TaPs 
 matriz = [[0] * 10 for _ in range(5)]
 
 matriz[0] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

@@ -21,11 +21,11 @@ while True:
         continue
     else:
         while True:
-            for  
-            valor_neto = float(input("Ingrese el valor neto del mercado actual: "))
-            break
-        elif ValueError:
-    print("El valor ingresado no es válido. Intente nuevamente.")
-    valor_base, valor_iva = calcular_valor_bruto(producto, valor_neto)
-    print(f"El valor base del producto es: {valor_base:.2f}")
-    print(f"El valor del IVA es: {valor_iva:.2f}")
+            try:
+                valor_neto = float(input("Ingrese el valor neto del mercado actual: "))
+                break
+            except ValueError:
+                print("El valor ingresado no es válido. Intente nuevamente.")
+        valor_base, valor_iva = calcular_valor_bruto(producto, valor_neto)
+        print(f"El valor base del producto es: {valor_base:.2f}")
+        print(f"El valor del IVA es: {valor_iva:.2f}")
