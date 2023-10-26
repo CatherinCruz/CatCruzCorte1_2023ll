@@ -22,7 +22,7 @@ def main():
 
 
         print(f'Nombre: {usuario.nombre}\n
-              f'altura:{usuario.altura}(cm)\n
+              f'altura:{usuario.altura}(cm) \n
               f'peso:{usuario.peso}(kg)')
 
 
